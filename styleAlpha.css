@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+}
+
+
+html{
+    height: 100%;
+}
+
+body { 
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;  
+	font-size: 14px; 
+	color: #333333; 
+	background-color: #F9F9F9; 
+    height: 100%;
+}
+ 
+article p { 
+	width: 100%;
+    margin-top: 3em;
+    line-height: 150%;
+    text-align: justify;
+    
+} 
+ 
+article li { 
+	line-height: 170%; 
+} 
+
+article ul  {
+    margin-top: 5px;
+}
+ 
+nav{
+    box-shadow: 0 0 10px black;
+    position: absolute; 
+    padding: 0 0 0 0; /*top right bottom left*/
+	width: 100%; 
+	height: 7%;   
+	font-weight: normal;  
+    background-color: #3F51B5;
+    background-blend-mode: normal;
+}
+
+article{
+    position: absolute; 
+	padding: 0 0 20px 20px; /*top right bottom left*/ 
+	margin-top: 20em;
+	margin-left: 25%; 
+    margin-right: 25%;
+    width: auto;
+}
+
+header{
+    text-align: center;
+    position: absolute; 
+	margin-top: 10em;
+	margin-left: 20%; 
+    margin-right: 20%;
+    width: 62%;
+}
+
+header h1   {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+/************  NAV  *****************************/
+
+nav ul {
+    margin-top: 26px;
+    text-align: center;
+    
+    /* weitere Angaben */
+}
+ 
+nav li {
+    font-size: 18px;
+    display: inline-block;
+    list-style-type: none; 
+	line-height: 150%; 
+    /* weitere Angaben */
+}
+ 
+nav a, nav span {
+    display: block;
+    width: 15em;
+    margin-right: 3em;
+    margin-left: 3em;
+    /* weitere Angaben */
+}
+
+li#current a:link{
+    color: white;
+    font-weight: bold;
+}
+
+/**************** Link classes ****************/  
+nav a:link { 
+	text-decoration: underline; 
+	font-weight: bold; 
+} 
+ 
+nav li a:link {  
+    color: #BABFBD;
+	text-decoration: none; 
+	font-weight: bold; 
+} 
+ 
+nav a:visited {
+    color: #BABFBD;
+	text-decoration: underline; 
+	font-weight: bold; 
+} 
+ 
+nav li a:visited { 
+    color: #BABFBD;
+	text-decoration: none; 
+	font-weight: bold; 
+} 
+ 
+nav a:hover { 
+	color: white; 
+	padding-bottom: 5px; 
+	font-weight: bold; 
+	text-decoration: underline; 
+} 
+ 
+nav li a:hover { 
+	display: block; 
+	color: white; 
+	padding-bottom: 12px; 
+	font-weight: bold; 
+	border-bottom-width: 4px; 
+	border-bottom-style: solid; 
+	border-bottom-color: #FAB119; 
+} 
+ 
+h1 { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 18px; 
+	font-weight: bold; 
+	color: #000000; 
+} 
+ 
+h2 { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 16px; 
+	font-weight: bold; 
+	color: #000000; 
+	border-bottom: 1px solid #C6EC8C; 
+} 
+
+a:visited { 
+    text-decoration: none; 
+    color: black;
+}
+
+footer a:link { 
+	text-decoration: none; 
+    color: black;
+}
+
+p a:link { 
+	text-decoration: none; 
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+
+/********************   Footer   ****************************/
+
+footer{
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: black;
+    position: absolute; 
+	padding: 10px 0 0 0; /*top right bottom left*/ 
+	height: 5px;
+	margin-left: 30%; 
+    margin-right: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+.wrapper {
+	min-height: 20px;
+	margin: 0 auto -90%; /* the bottom margin is the negative value of the footer's height */
+}
+.push {
+	height: 90%; /* '.push' must be the same height as 'footer' */
+    min-height: 50px;
+}
+
+
+/**************** Link classes ***************  
+a:link { 
+	text-decoration: underline; 
+	font-weight: bold; 
+} 
+ 
+li a:link {  
+	text-decoration: none; 
+	font-weight: bold; 
+} 
+ 
+ 
+ 
+li a:visited { 
+	text-decoration: none; 
+	font-weight: bold; 
+} 
+ 
+a:hover { 
+	color: crimson; 
+	padding-bottom: 5px; 
+	font-weight: bold; 
+	text-decoration: underline; 
+} 
+ 
+li a:hover { 
+	display: block; 
+	color: crimson; 
+	padding-bottom: 5px; 
+	font-weight: bold; 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid; 
+	border-bottom-color: #C6EC8C; 
+} 
+ 
+a:active { 
+	color: black;
+	font-weight: bold; 
+} */
